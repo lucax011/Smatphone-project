@@ -15,6 +15,12 @@ class Program
         nokia.InstalarAplicativo("Snake");
         nokia.Ligar();
         nokia.ReceberLigacao();
+         
+       //exemplo interface
+        Forma figura1 = new Circulo(5);
+        double area = figura1.CalcularArea();
+        double perimetro = figura1.CalcularPerimetro();
 
+        Console.WriteLine($"area: {area} perimetro {perimetro}");
     }
 }
