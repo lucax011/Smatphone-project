@@ -16,11 +16,17 @@ class Program
         nokia.Ligar();
         nokia.ReceberLigacao();
          
-       //exemplo interface
+       //exemplo uso de interface
+        
         Forma figura1 = new Circulo(5);
         double area = figura1.CalcularArea();
         double perimetro = figura1.CalcularPerimetro();
-
-        Console.WriteLine($"area: {area} perimetro {perimetro}");
+        
+        Console.WriteLine($"area da figura 1: {area} perimetro {perimetro}");
+        
+        Forma figura2 = new Triangulo(2,5);
+        area = figura1.CalcularArea();
+      
+        Console.WriteLine($"area da figura 2: {area} perimetro {perimetro}");
     }
 }
