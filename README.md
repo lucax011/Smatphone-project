@@ -1,4 +1,26 @@
-# DIO - Trilha .NET - Programação orientada a objetos
+# Smartphone: POO com C#
+
+Minha solução do desafio de orientação a objetos do bootcamp de C# e .NET da [DIO](https://www.dio.me). A classe abstrata `Smartphone` serve de modelo para `Nokia` e `Iphone`, que sobrescrevem `InstalarAplicativo`. O projeto também tem um exemplo de interface com `Forma`, `Circulo` e `Triangulo`.
+
+## Como rodar
+
+Pré-requisito: [.NET 8 SDK](https://dotnet.microsoft.com/download).
+
+```bash
+dotnet run --project DesafioPOO.csproj
+```
+
+```
+Instalando WhatsApp no iPhone.
+Ligando...
+Recebendo ligação...
+Instalando Snake no Nokia.
+...
+```
+
+## Enunciado original
+
+### DIO - Trilha .NET - Programação orientada a objetos
 www.dio.me
 
 ## Desafio de projeto
